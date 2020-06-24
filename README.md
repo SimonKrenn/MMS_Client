@@ -1,3 +1,10 @@
+## Functionality
+
+Takes an Image and TextInputs and generates a Meme
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
