@@ -1,6 +1,8 @@
-
 import styled from 'styled-components';
 
+/**
+ * Stylesheet
+ */
 
 const Container = styled.div`
 `
@@ -26,12 +28,17 @@ color: white;
 bottom: 0;
 position: absolute;
 `
-
+const FormContainer = styled.div`
+overflow: scroll;
+`
 
 
 
 const TextField = styled.input`
-border: 1px solid black;
+style: none;
+width: 100px;
+padding: 12px 20px;
+margin: 8px;
 `
 
 const ImageContainer = styled.div`
@@ -51,4 +58,4 @@ max-width: 100%;
 max-height: 100%;
 `
 
-export {Container, Header, Footer, TextField, ImageContainer, Image, UploadContainer} ;
+export {Container, Header, Footer, TextField, ImageContainer, Image, UploadContainer, FormContainer} ;
