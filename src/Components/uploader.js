@@ -95,7 +95,7 @@ class Uploader extends React.Component {
         //const inputRef = useRef();
         let rect = e.target.getBoundingClientRect()
 
-        let xCoordinate = Math.round(rect.left- e.nativeEvent.offsetX);
+        let xCoordinate = e.nativeEvent.offsetX
         let yCoordinate = e.nativeEvent.offsetY
        this.setState({
            x: xCoordinate,
@@ -183,7 +183,7 @@ class Uploader extends React.Component {
             </FlexRow>
             <FlexRow>
             <ImageContainer>
-            <Image  id="Image" onClick={this.getTextPosition} src={this.state.fileURL}/>
+            <Image id="Image" onClick={this.getTextPosition} src={this.state.fileURL}/>
             </ImageContainer>
             </FlexRow>
             </FlexContainer>

@@ -1,6 +1,17 @@
 ## Functionality
 
-Takes an Image and TextInputs and generates a Meme
+Takes an Image and TextInputs and generates an Image Macro
+
+
+## Prerequisites
+
+Must have atleast Node v12.18.1 and NPM v6.14.5 installed! Not tested on older Versions!
+
+### How to Setup the Environment for Visual Testing
+
+Open Terminal and Navigate to the Directory containing package.json
+run npm install
+run npm start
 
 
 
