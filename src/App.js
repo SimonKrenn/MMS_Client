@@ -7,13 +7,12 @@ export default class App extends Component {
   
   render(){
   return (
-   
-    <Container>
+    <>
     <Header>Image Macro Generator</Header>
     <Uploader>
     </Uploader>
     <Footer>Footer</Footer>
-    </Container>
+    </>
   );
 }
 }
